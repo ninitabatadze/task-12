@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #2B2B2B;
+}
+
+@font-face {
+    font-family: 'Work sans';
+    src: url(fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'space';
+    src: url(fonts/SpaceMono-Bold.ttf);
+}
+
+.navbar-nav {
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-link1 {
+    display: flex;
+    font-family: 'work sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav-link2 {
+
+    display: flex;
+    font-family: 'work sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.Sign {
+    color: #FFFFFF;
+    border: none;
+    width: 152px;
+    height: 60px;
+    background: #A259FF;
+    border-radius: 20px;
+}
+
+.Sign:hover {
+    color: #FFFFFF;
+    background: transparent;
+    border: 1px solid #A259FF;
+}
+
+.logo {
+    align-items: center;
+    gap: 10px;
+    font-family: 'space';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+    color: #FFFFFF;
+    display: flex;
+    text-decoration-line: none;
+}
+.logo1 {
+    margin-left: 3rem;
+    align-items: center;
+    gap: 10px;
+    font-family: 'space';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+    color: #FFFFFF;
+    display: flex;
+    text-decoration-line: none;
+}
+
+@media (max-width:765px) {
+   
+    .account {
+        font-weight: 600 !important;
+        font-size: 38px !important;
+        line-height: 120% !important;
+    }
+
+    .details {
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        line-height: 140% !important;
+    }
+
+    #change {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 575px) {
+    .butn2 {
+        width: 100% !important;
+        margin-left: 0px !important;
+        height: auto !important;
+    }
+}
+
+@media (max-width: 990px) {
+    .logo1{
+        margin-left: 1rem!important;
+    }
+    .navbar-nav{
+        align-items: normal !important;
+    }
+    .nav-link1 {
+        margin-left: 60px;
+    }
+}
+
+.account {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 51px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.details {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF;
+}
